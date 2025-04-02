@@ -1,0 +1,21 @@
+!!airport.cargos.demo.web_common_demo.entity.SystemConfig
+auto_delete: 0
+detect_url: http://127.0.0.1:8000/detect
+detected_status: 0
+frame_rate: 10
+image_path: ../data/images/
+image_save_time: 7
+input_type: 1
+input_view: 1
+last_labels: 10
+points:
+- [0, 0, 1728, 1912]
+sample_rate: 5
+save_status: 0
+save_time: 1
+scale: 2
+source: /home/airport/installer/6号采集视频_13号机.mp4
+synthesis_url: http://127.0.0.1:8081/
+threshold: 0.6
+video_path: ../data/videos/
+video_save_time: 2

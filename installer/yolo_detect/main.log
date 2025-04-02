@@ -1,0 +1,7 @@
+[0;93m2024-06-28 10:32:56.948181292 [W:onnxruntime:Default, onnxruntime_pybind_state.cc:2103 CreateInferencePybindStateModule] Init provider bridge failed.[m
+ * Serving Flask app 'main'
+ * Debug mode: off
+Address already in use
+Port 8000 is in use by another program. Either identify and stop that program, or start the server with a different port.
+Fusing layers... 
+Model summary: 499 layers, 59283148 parameters, 0 gradients, 153.0 GFLOPs

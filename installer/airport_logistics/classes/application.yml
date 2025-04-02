@@ -1,0 +1,31 @@
+server:
+    port: 9000
+
+spring:
+#    profiles:
+#        active: @profileActive@
+    application:
+        name: airport_logistics
+    datasource:
+        url: jdbc:mysql://localhost:3306/airport_logistics?serverTimezone=GMT%2B8&useSSL=true
+        driver-class-name: com.mysql.cj.jdbc.Driver
+
+        username: airport
+        password: Qwer1234!
+    #清除缓存
+    thymeleaf:
+        cache: false
+mybatis:
+    config-location: classpath:mybatis-config.xml
+    configuration:map-underscore-to-camel-case: true
+
+#pagehelper:
+#    helper-dialect: mysql
+#    propertyName: propertyValue
+#    reasonable: true
+#    defaultCount: true
+#    pageSizeZero: true
+
+
+
+
